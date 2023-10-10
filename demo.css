@@ -1,0 +1,110 @@
+/* Thiết lập font và màu chung */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display:flex;
+    background-color:aliceblue;
+    justify-items: center;
+    justify-content: center;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 5px;
+    padding: 15px 20px;
+    justify-items: center;
+    justify-content: center;
+    display:flex;
+}
+
+.menu li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.menu li:hover ul {
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+
+    list-style-type: none;
+    padding: 8px;
+}
+
+.submenu li {
+    display: block;
+}
+
+.submenu li a {
+    color:black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    border-bottom: 1px solid rgb(179, 179, 146);
+    background-color: antiquewhite;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+nav {
+    background-color:#f3f3f3;
+    margin:5px;
+    padding:5px;
+}
+.nav-article{
+    height:400px ;
+    width:400px;
+    background-image: url('https://quancaphe.vn/wp-content/uploads/2022/02/quan-bun-dau-mam-tom-bong-lai-quan-met-267403.jpg');
+   /* float:left;*/
+    padding:0px;
+}
+.wipar{
+    height:550;
+    width:550px;
+    display:block;
+    padding:0px;
+}
+
+a:hover {
+    background-color: #007bff; /* Màu nền khi đưa chuột vào */
+    color:blue; /* Màu chữ khi đưa chuột vào */
+    transition: background-color 0.3s, color 0.3s; /* Hiệu ứng chuyển đổi */
+    margin:5px;
+    padding:10px;
+}
+/* Định dạng main content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Định dạng footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+

@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 5px;
+    padding: 5px;
+}
+
+
+.header{
+    display:flex;
+    background-color:aliceblue;
+    justify-items: center;
+    justify-content: center;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 5px;
+    padding: 15px 20px;
+    justify-items: center;
+    justify-content: center;
+    display:flex;
+}
+
+.menu li {
+    display: inline-block;
+    position: relative;
+}
+
+.menu li a {
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.menu li:hover ul {
+    display: block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+
+    list-style-type: none;
+    padding: 8px;
+}
+
+.submenu li {
+    display: block;
+}
+
+.submenu li a {
+    color:black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    border-bottom: 1px solid rgb(179, 179, 146);
+    background-color: antiquewhite;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+nav{
+    height:200px;
+    background-image: url('https://scr.vn/wp-content/uploads/2020/07/Tam-C%E1%BB%91c-Ninh-B%C3%ACnh-m%C3%B9a-l%C3%BAa-ch%C3%ADn.jpg');
+    background-repeat:no-repeat;
+    background-position: center center ;
+}
+
+.title{
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 35px;
+    color:azure;
+}
+
+article{
+    min-height:400px ;
+    width:100%;
+    background:white ;
+    float:left;
+    margin:auto;
+}
+.main{
+display:flex;
+}
+.chu{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    margin:5px;
+}
+.wipar{
+    display:flex;
+    width:621px;
+   padding:0px;
+    
+}
+.image-container{
+    display:flex;
+   
+
+}
+.image-container img{
+    margin-right: 35px;
+    
+}
+/*aside{
+    min-height:400px ;
+    width:30%;
+    background:white ;
+    float:right;
+    margin:auto;
+
+}*/
+footer{
+background-color:cyan;
+
+}
+
+.thongtin{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left;
+    margin:5px;
+
+}

@@ -1,0 +1,42 @@
+/* Thiết kế header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Thiết kế menu điều hướng */
+nav {
+    background-color: #444;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Thiết kế nội dung chính */
+main {
+    padding: 20px;
+}
+
+/* Thiết kế footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
